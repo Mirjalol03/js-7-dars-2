@@ -71,6 +71,7 @@ let input2 = document.createElement('input');
 input2.placeholder = "Enter password";
 input2.style.width = "100%";
 input2.style.fontSize = "24px";
+input2.type = "password";
 input2.style.borderRadius = "5px";
 input2.style.boxSizing = "border-box";
 input2.style.padding = "10px";
