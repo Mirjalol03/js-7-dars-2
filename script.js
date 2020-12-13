@@ -144,36 +144,44 @@ container.appendChild(form);
 
 document.getElementById('input1Id').onclick = function () {
     document.getElementById('input1Id').style.boxShadow = "0px 0px 10px 5px dodgerblue";
+    document.getElementById('input1Id').style.transitionDelay = "0s";
 }
 
 document.getElementById('input1Id').onmouseout = function () {
     document.getElementById('input1Id').style.boxShadow = "none";
+    document.getElementById('input1Id').style.transitionDelay = "1s";
 }
 
 
 document.getElementById('input2Id').onclick = function () {
+    document.getElementById('input2Id').style.transitionDelay = "0s";
     document.getElementById('input2Id').style.boxShadow = "0px 0px 10px 5px dodgerblue";
 }
 
 document.getElementById('input2Id').onmouseout = function () {
     document.getElementById('input2Id').style.boxShadow = "none";
+    document.getElementById('input2Id').style.transitionDelay = "1s";
 }
 
 
 document.getElementById('checkboxId').onclick = function () {
+    document.getElementById('checkboxId').style.transitionDelay = "0s";
     document.getElementById('checkboxId').style.boxShadow = "0px 0px 5px 2px dodgerblue";
 }
 
 document.getElementById('checkboxId').onmouseout = function () {
     document.getElementById('checkboxId').style.boxShadow = "none";
+    document.getElementById('checkboxId').style.transitionDelay = "1s";
 }
 
 
 document.getElementById('submitId').onclick = function () {
+    document.getElementById('submitId').style.transitionDelay = "0s";
     document.getElementById('submitId').style.boxShadow = "0px 0px 10px 5px rgb(102, 179, 255)";
 }
 
 document.getElementById('submitId').onmouseout = function () {
     document.getElementById('submitId').style.boxShadow = "none";
+    document.getElementById('submitId').style.transitionDelay = "1s";
 }
 
